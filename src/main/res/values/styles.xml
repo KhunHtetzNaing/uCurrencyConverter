@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="DayBlue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#2196F3</item>
+    </style>
+
+    <style name="NightBlue" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#2196F3</item>
+    </style>
+
+
+    <style name="DayGreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#00E676</item>
+        <item name="colorPrimaryDark">#00C853</item>
+        <item name="colorAccent">#4CAF50</item>
+    </style>
+
+    <style name="NightGreen" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">#00E676</item>
+        <item name="colorPrimaryDark">#00C853</item>
+        <item name="colorAccent">#4CAF50</item>
+    </style>
+
+    <style name="DayTeal" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#26A69A</item>
+        <item name="colorPrimaryDark">#00897B</item>
+        <item name="colorAccent">#009688</item>
+    </style>
+
+    <style name="NightTeal" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">#26A69A</item>
+        <item name="colorPrimaryDark">#00897B</item>
+        <item name="colorAccent">#009688</item>
+    </style>
+
+    <style name="DayIndigo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#3949AB</item>
+        <item name="colorAccent">#3F51B5</item>
+    </style>
+
+    <style name="NightIndigo" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#3949AB</item>
+        <item name="colorAccent">#3F51B5</item>
+    </style>
+
+    <style name="DayPink" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#E91E63</item>
+        <item name="colorPrimaryDark">#E91E63</item>
+        <item name="colorAccent">#D81B60</item>
+    </style>
+
+    <style name="NightPink" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">#E91E63</item>
+        <item name="colorPrimaryDark">#E91E63</item>
+        <item name="colorAccent">#D81B60</item>
+    </style>
+</resources>

@@ -1,0 +1,237 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.htetznaing.ucurrencyconverter.BlankFragment">
+
+    <android.support.v7.widget.Toolbar
+        app:title="Settings"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/toolbar"
+        android:orientation="horizontal"
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/iv1"
+                android:src="@drawable/ic_night"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@id/iv1"
+                android:layout_marginLeft="10dp"
+                android:text="Night Mode"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <Switch
+                android:id="@+id/dayNith"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/l1"
+        android:orientation="horizontal"
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:background="#4CAF50"
+                android:id="@+id/iv2"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@id/iv2"
+                android:layout_marginLeft="10dp"
+                android:text="Green Theme"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <Switch
+                android:id="@+id/green"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/l2"
+        android:orientation="horizontal"
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:background="#009688"
+                android:id="@+id/iv3"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@id/iv3"
+                android:layout_marginLeft="10dp"
+                android:text="Teal Theme"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <Switch
+                android:id="@+id/teal"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/l3"
+        android:orientation="horizontal"
+        android:id="@+id/l4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:background="#3F51B5"
+                android:id="@+id/iv4"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@id/iv4"
+                android:layout_marginLeft="10dp"
+                android:text="Indigo Theme"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <Switch
+                android:id="@+id/indigo"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/l4"
+        android:orientation="horizontal"
+        android:id="@+id/l5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:background="#E91E63"
+                android:id="@+id/iv5"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@id/iv5"
+                android:layout_marginLeft="10dp"
+                android:text="Pink Theme"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <Switch
+                android:id="@+id/pink"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/l5"
+        android:orientation="horizontal"
+        android:id="@+id/l6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:background="#2196F3"
+                android:id="@+id/iv6"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@id/iv6"
+                android:layout_marginLeft="10dp"
+                android:text="Blue Theme(Default)"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <Switch
+                android:id="@+id/blue"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
