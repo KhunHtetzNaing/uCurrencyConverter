@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="10dp"
-    tools:context="com.htetznaing.ucurrencyconverter.MainActivity">
+    tools:context="com.khn.ucurrencyconverter.MainActivity">
 
     <WebView
         android:visibility="gone"
@@ -130,7 +130,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4173348573252986/9583980941">
+        ads:adUnitId="ca-app-pub-1325188641119577/1334768214">
     </com.google.android.gms.ads.AdView>
 
     <android.support.design.widget.FloatingActionButton

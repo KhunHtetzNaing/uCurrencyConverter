@@ -1,4 +1,4 @@
-package com.htetznaing.ucurrencyconverter;
+package com.khn.ucurrencyconverter;
 
 import org.junit.Test;
 

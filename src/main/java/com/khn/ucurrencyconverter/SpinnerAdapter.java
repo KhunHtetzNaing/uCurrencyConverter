@@ -1,4 +1,4 @@
-package com.htetznaing.ucurrencyconverter;
+package com.khn.ucurrencyconverter;
 
 import android.app.Activity;
 import android.content.Context;
