@@ -1,4 +1,4 @@
-package com.khn.ucurrencyconverter;
+package com.ngoe.ucc;
 
 import org.junit.Test;
 

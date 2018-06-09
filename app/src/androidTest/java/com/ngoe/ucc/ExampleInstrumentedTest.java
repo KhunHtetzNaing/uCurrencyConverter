@@ -1,4 +1,4 @@
-package com.khn.ucurrencyconverter;
+package com.ngoe.ucc;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

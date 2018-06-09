@@ -1,4 +1,4 @@
-package com.khn.ucurrencyconverter;
+package com.ngoe.ucc;
 
 public class ItemData {
 
